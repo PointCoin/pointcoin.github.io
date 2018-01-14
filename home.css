@@ -1,0 +1,37 @@
+body {
+    width: 600px;
+    min-height: 100%;
+    margin: 20px auto 0px auto;
+}
+small {
+    margin-left: 10px;
+    font-style: normal;
+}
+
+img {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.links {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+}
+
+.story {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+
+    body {
+       width: 92%;
+       margin: 4%;
+    }
+
+}
